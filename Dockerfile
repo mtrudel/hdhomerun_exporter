@@ -1,7 +1,6 @@
 FROM golang:1.19.4-alpine
 
 ENV GOOS=linux
-ENV GOARCH=arm64
 RUN apk add --no-cache libc6-compat
 
 WORKDIR /app
